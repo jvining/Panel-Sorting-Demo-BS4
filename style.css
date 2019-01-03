@@ -7,12 +7,10 @@
  */
 
 body {background:#fbfbfb; font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
-body > .container:first-of-type{margin-top:5em; margin-top:8em; min-height:calc(90vh - 10em);}
+body > .container:first-of-type{margin-top:5em; min-height:calc(90vh - 10em);}
 
-
-.hidden{display:none!important;}
-
-
+.list-inline {display: flex;}
+.list-inline li {flex: 1; text-align: center;}
 
 footer {background:#343a40; margin-top:50px; padding:15px 0 0 0;}
 footer [class*="col"] {border:none; background:none; min-height:0; color:#666;}
